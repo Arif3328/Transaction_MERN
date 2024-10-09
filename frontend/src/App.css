@@ -1,0 +1,52 @@
+/* Styling for the transactions table */
+.transactions-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff9d9;
+  /* Light yellow background */
+  border: 1px solid black;
+  /* Black border */
+  border-radius: 8px;
+  /* Lightly rounded edges */
+  margin: 20px 0;
+}
+
+.transactions-table th,
+.transactions-table td {
+  border: 1px solid black;
+  /* Black borders for table cells */
+  padding: 10px;
+  text-align: left;
+}
+
+.transactions-table th {
+  background-color: #ffe680;
+  /* Darker yellow for header */
+}
+
+.transactions-table img {
+  border-radius: 8px;
+  /* Rounded edges for images */
+}
+
+.pagination {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button {
+  padding: 8px 16px;
+  border-radius: 5px;
+  background-color: #ffcc80;
+  border: 1px solid #000;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #f0f0f0;
+  cursor: not-allowed;
+}
